@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.linear_model import LassoCV
 
 # 加载数据
-train_data = pd.read_csv('TCGA_20.csv')
+train_data = pd.read_csv('TCGA_22.csv')
 test_data = pd.read_csv(file_location)
 
 # 选择正确的特征列和目标列（根据实际数据列数调整索引）
