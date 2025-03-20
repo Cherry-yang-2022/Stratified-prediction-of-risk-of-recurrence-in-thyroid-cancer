@@ -8,8 +8,8 @@ import numpy as np
 from sklearn.linear_model import LassoCV
 
 # 加载数据
-train_data = pd.read_csv('C:\\Users\\cry\\Desktop\\TCGA_20.csv')
-test_data = pd.read_csv('C:\\Users\\cry\\Desktop\\)
+train_data = pd.read_csv('TCGA_20.csv')
+test_data = pd.read_csv(file_location)
 
 # 选择正确的特征列和目标列（根据实际数据列数调整索引）
 # 示例：假设特征为第2-32列，目标为第33列
